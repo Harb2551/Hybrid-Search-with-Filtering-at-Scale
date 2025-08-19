@@ -126,28 +126,28 @@ python main.py
 3. JBL Headphones → RRF = 1/(3+60) = 0.0159
 
 **Final Combined Scores:**
-- **Sony WH-1000XM4**: 0.0164 + 0.0161 = **0.0325** 🎯 (Consensus)
-- **Apple AirPods**: 0.0159 + 0.0164 = **0.0323** 🎯 (Consensus)
-- **Bose QuietComfort**: 0.0161 + 0 = **0.0161** 📍 (Semantic only)
-- **JBL Headphones**: 0 + 0.0159 = **0.0159** 📍 (BM25 only)
+- **Sony WH-1000XM4**: 0.0164 + 0.0161 = **0.0325**  (Consensus)
+- **Apple AirPods**: 0.0159 + 0.0164 = **0.0323**  (Consensus)
+- **Bose QuietComfort**: 0.0161 + 0 = **0.0161**  (Semantic only)
+- **JBL Headphones**: 0 + 0.0159 = **0.0159**  (BM25 only)
 
 **Final Ranking**: Sony → Apple → Bose → JBL
 
 ## Key Features
 
-### 🚀 Performance Optimizations
+###  Performance Optimizations
 - **Parallel search execution** (both engines run simultaneously)
 - **Filter-first architecture** (filter before search for speed)
 - **Configurable retrieval limits** (get more candidates for better fusion)
 - **Efficient product deduplication**
 
-### 🎯 Search Quality
+###  Search Quality
 - **Consensus boost** (items found by both engines rank higher)
 - **No score normalization needed** (rank-based fusion)
 - **Handles different query types** (conceptual vs exact matches)
 - **Comprehensive relevance scoring**
 
-### 📊 Analytics & Insights
+###  Analytics & Insights
 - **Detailed fusion statistics** (consensus percentage, source breakdown)
 - **Performance timing** (search time, fusion time)
 - **Engine contribution analysis** (which engine contributed what)
