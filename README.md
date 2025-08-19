@@ -98,11 +98,11 @@ python main.py
 ```
 
 **Demo includes:**
-1. **🔗 Connection Test** - Verify both engines are ready
-2. **🔍 Basic Hybrid Search** - Test RRF fusion
-3. **⚖️ Engine Comparison** - Compare Semantic vs BM25 vs Hybrid
-4. **🔍 Multi-Query Test** - Test various query types
-5. **🔍 Interactive Mode** - Real-time search testing
+1. Connection Test** - Verify both engines are ready
+2. Basic Hybrid Search** - Test RRF fusion
+3. Engine Comparison** - Compare Semantic vs BM25 vs Hybrid
+4. Multi-Query Test** - Test various query types
+5. Interactive Mode** - Real-time search testing
 
 ## RRF (Reciprocal Rank Fusion) Explained
 
