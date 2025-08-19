@@ -1,0 +1,32 @@
+# Hybrid Search System Requirements
+# All dependencies consolidated from submodules
+
+# Core ML and Vector Search
+qdrant-client>=1.7.0
+sentence-transformers>=2.2.2
+torch>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Text Processing and Search
+nltk==3.8.1
+rank-bm25==0.2.2
+scikit-learn==1.3.2
+
+# Environment and Configuration
+python-dotenv>=1.0.0
+
+# Progress and Utilities
+tqdm>=4.65.0
+
+# Web Interface
+streamlit>=1.28.0
+
+# Development and Visualization (optional)
+jupyter>=1.0.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Optional GPU support (uncomment if using GPU)
+# torch[gpu]>=2.0.0
+# torchvision>=0.13.0

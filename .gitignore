@@ -1,0 +1,4 @@
+data/
+venv/
+*.gz
+*/__pycache__
